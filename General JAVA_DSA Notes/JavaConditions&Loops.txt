@@ -1,0 +1,19 @@
+#Syntax of FOR loop :
+   	for (initialisation;condition;increment/decrement) {
+		//body
+	}
+---Example : Print number 1 to5
+         for(int num=1;num<=5;++num)
+
+#Syntax for while loops :
+ 	while(condition) {
+	//body
+  	}
+
+#Syntax for do while :
+     	do {
+	      //body
+	} while (condition);
+
+fibonacci series : It is the sum of previous two number in an series
+  for eg. 0,1, 1 (0 + 1) , 2 (1 + 1) , 3 (2 + 1) , 5 (3 + 2) ..... and so on....

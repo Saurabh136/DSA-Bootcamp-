@@ -1,0 +1,15 @@
+Ex. 1) 744. Find Smallest Letter Greater Than Target 
+https://leetcode.com/problems/find-smallest-letter-greater-than-target/
+
+approach :-  1] Exact same approach as the ceiling of the number
+             2] Ignore '>=' only ' >' is required for this question
+             3] If an array contains arr=['c','d','e','f','j'] & the target= j
+               then here no letter is greater then 'j', so in this case it will return the first index
+
+Ex. 2) 34. Find First and Last Position of Element in Sorted Array
+https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+STEPS :    1] lOGIC : If arr = [5,7,7,7,7,8,8,9] --> target= 7 , then o/p will be index [1,4]
+           2] find first occurence of the target in an given array
+           3] if it is on the left side of the mid then use End = mid - 1
+
+If its Sorted array then use Binary Search
