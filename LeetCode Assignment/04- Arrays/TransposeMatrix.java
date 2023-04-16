@@ -6,9 +6,9 @@ public class TransposeMatrix {
         int[][] matrix = {{1,2,3},
                           {4,5,6},
                           {7,8,9}};
-        //int[][] transposed = transpose(matrix);
-        //System.out.println(Arrays.deepToString(transposed));
-        System.out.println(Arrays.deepToString(transpose(matrix)));
+        int[][] transposed = transpose(matrix);
+        System.out.println(Arrays.deepToString(transposed));
+        //System.out.println(Arrays.deepToString(transpose(matrix)));
         
     }
     public static int[][] transpose(int[][] matrix) {
