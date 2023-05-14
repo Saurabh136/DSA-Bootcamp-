@@ -1,4 +1,8 @@
 //https://leetcode.com/problems/plus-one/
+//Time complexity: The for loop iterates through the array from right to left, and in the worst case scenario, it visits each digit once. 
+//Therefore, the time complexity of the for loop is O(n).
+//The space required for the input array digits is O(n), 
+//as it directly depends on the size of the input.
 import java.util.Arrays;
 
 public class PlusOne {
