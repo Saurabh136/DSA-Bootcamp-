@@ -1,0 +1,6 @@
+Steps In Binary search  :--
+Find the middle element
+target > middle ==> search in the right else search in the left
+If middle element == target // ans
+Start + End /2 in binary search
+start + (End - Start) / 2 gives us the same answer i.e start + end / 2
