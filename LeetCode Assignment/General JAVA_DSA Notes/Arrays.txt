@@ -1,0 +1,23 @@
+--Syntax of Array:
+--   datatype[ ] variable_name = new datatype[size];
+
+
+
+1]  All the datatype in the array should be same
+
+2]  Breakdown of an array :
+          for eg.  int[ ] rollnums = new int [ ];
+      here,  int[ ] rollnums; ---- declaration of array. , rollnums is getting defined in the stack
+               rollnums = new[5]; ---- initialisation; actually here the object is being created in the memory(heap)
+
+3] Array objects are in heap
+
+4] Heap objects are not continues
+
+5] Memory is allocated at runtime i.e Dynamic Memory Allocation
+
+6] Array objects in Java may not be continous depends on JVM
+
+7] New is the keyword used to create an object
+
+8] Strings are immutable in java but Arrays are muttable , mutable simply means Array object can be change.
