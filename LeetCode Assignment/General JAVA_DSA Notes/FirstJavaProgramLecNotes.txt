@@ -1,0 +1,28 @@
+-main is the reserved word, it is a entry point in java program
+
+-static : it does not depend on varible
+
+-void : return value
+
+-String args : collection of strings 
+
+command line input : System.out.println(args[0]);
+
+--In Scanner input = new Scanner(System.in) , System.in mean taking input from keyboard
+and System.in is a constructor intializing the object.
+
+--input.nextInt() - if the input is integer
+
+--input.next() - if the input is string, it will print the first string of the sentence
+
+-- input.nextLine() - It will print the whole sentence of string
+
+-- Primitive datatypes -- int, char, float(e.g 96.13f), double(large decimal numbers), long(large integers e.g 323454656546L), boolean
+
+-- In int a=10; , '10' here is a "literal" and the reference variable 'a' is an "identifier"
+
+-- If suppose we have to print 234 million then replace ' comma' with 'underscore' i.e 234_000_000
+
+--//Type casting//-> int num = (int)(67.56f); here output will be 67 as the 'float' is typecasted in 'int'
+
+
